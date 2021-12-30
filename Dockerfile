@@ -1,4 +1,7 @@
-FROM python:latest 
+FROM python:3.10 
+
+ARG PORT
+ENV PORT=8080
 
 RUN mkdir -pv /usr/src/python_echo 
 COPY requirements.txt ./
