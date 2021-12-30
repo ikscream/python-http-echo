@@ -14,7 +14,12 @@ podman build .
 
 ## Run
 
-podman run --network host --name echo 
+
+```
+» podman run -e PORT=2000 --network host -e PORT=8000 --rm -d --name python-http-echo debugger0/python-http-echo:latest
+» curl localhost:8000                                                                         godscream@fedora
+2021-12-30 09:12:50.122309: 127.0.0.1 GET /
+```
 
 ### Environment
 
