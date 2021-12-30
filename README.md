@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/ikscream/python-http-echo/actions/workflows/docker-image.yml/badge.svg)](https://github.com/ikscream/python-http-echo/actions/workflows/docker-image.yml)
+
 # Description
 
 Just another safe-code http echo server written on ```Python```
